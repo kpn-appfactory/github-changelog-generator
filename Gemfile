@@ -13,6 +13,7 @@ group :development, :test do
   gem "rubocop", ">= 0.50"
   gem "rubocop-performance"
   gem "yard-junk"
+  gem "faraday", '~> 1.0', require: false
 end
 
 group :development do
@@ -27,4 +28,5 @@ group :test do
   gem "simplecov", "~>0.10", require: false
   gem "vcr", "~> 6"
   gem "webmock"
+  gem "faraday", '~> 1.0', require: false
 end
